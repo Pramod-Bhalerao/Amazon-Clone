@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", "arial";
+}
+
+.navbar {
+  height: 60px;
+  background-color: #131921;
+  color: white;
+  display: flex;
+  align-items: center;
+  /* justify-content: space-evenly; */
+}
+
+.navlogo {
+  height: 50px;
+  width: 100px;
+}
+
+.logo {
+  background-image: url("./PngItem_12080.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 10px;
+  height: 30px;
+  width: 100px;
+}
+
+.border {
+  border: 1px solid transparent;
+}
+
+.border:hover {
+  border: 1px solid white;
+}
+
+.icons {
+  display: flex;
+}
+
+.add-one {
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 16px;
+}
+
+.add-two {
+  color: #fff;
+  font-size: 0.85rem;
+  margin-left: 5px;
+}
+
+.address {
+  margin-left: 5px;
+  padding: 10px;
+}
+
+.search-bar {
+  display: flex;
+  height: 40px;
+  width: 650px;
+  margin-left: 5px;
+}
+
+.search-option {
+  background-color: #e6e6e6;
+  width: 50px;
+  border: none;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+}
+
+.search-input {
+  width: 100%;
+  border: none;
+  font-size: 0.85rem;
+  padding-left: 5px;
+}
+
+.search-bar:hover,
+.search-icon:hover {
+  border: 1px solid orange;
+}
+
+.search-icon {
+  width: 50px;
+  height: 40px;
+  background-color: #febd69;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #131921;
+  font-size: 1.4rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+span {
+  font-size: 0.8rem;
+}
+
+.nav-signin {
+  margin-left: 80px;
+  padding: 8px;
+}
+
+.nav-orders {
+  margin-left: 20px;
+  padding: 8px;
+}
+
+.nav-cart {
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+/* PANEL */
+
+.panel {
+  font-size: 0.9rem;
+  height: 40px;
+  background-color: #232f3e;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.panel-options {
+  font-size: 0.9rem;
+  display: flex;
+  margin-left: 15px;
+  padding: 6px;
+  gap: 10px;
+}
+
+.panel-options p {
+  padding: 6px;
+}
+
+.panel-all-icon {
+  margin-left: 15px;
+  padding: 6px;
+}
+
+/* HERO SECTION */
+
+.hero-section {
+  background-image: url("./Hero-Image.jpg");
+  height: 500px;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-says {
+  background-color: whitesmoke;
+  color: #000;
+  width: 95%;
+  height: 40px;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  top: 50px;
+}
+
+.hero-says a {
+  text-decoration: none;
+  color: rgb(104, 177, 126);
+}
+
+/* SHOP SECTION */
+
+.shop-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.box {
+  background-color: #ffffff;
+  height: 300px;
+  width: 22%;
+  border: 1px solid black;
+  position: relative;
+  bottom: 150px;
+}
+
+.box-img {
+  margin-top: 5px;
+  margin-left: 10px;
+  align-items: center;
+  height: 220px;
+  width: 85%;
+}
+
+.box-content h2,
+.box-img {
+  margin: 10px;
+}
+
+
+/* FOOTER SECTION */
+.foot-panel1 {
+  background-color: #232f3e;
+  font-size: 0.85rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.foot-panel2 {
+  background-color: #131921;
+  height: 450px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.foot-panel2 p {
+  font-size: 1rem;
+  margin-top: 50px;
+  color: #fff;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #dddddd;
+  font-size: 0.85rem;
+}
+
+ul li {
+  list-style: none;
+  margin-top: 10px;
+}
+
+.foot-panel3 {
+  height: 70px;
+  background-color: #131921;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot-panel-logo {
+  height: 45px;
+  width: 100px;
+  background-image: url("./PngItem_12080.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-top: 25px;
+}
+
+.foot-panel4 {
+  height: 65px;
+  background-color: #232f3e;
+  color: #cccccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foot-panel4 a {
+  text-decoration: none;
+  color: #cccccc;
+
+}
